@@ -1,0 +1,155 @@
+
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/background"
+    tools:context=".CreateProjectActivity" >
+    
+ 	<RelativeLayout 
+		android:id="@+id/detail_rl"
+	   	android:layout_width="match_parent"
+	   	android:layout_height="wrap_content"
+	   	android:padding="5dp"
+	   	android:background="#DDFFFFFF" >
+	   	
+        <TextView
+	        android:id="@+id/create_project_title_tv"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="3dp"
+	        android:gravity="center"
+	        android:textSize="26sp"
+	        android:textStyle="bold" 
+	        android:text="@string/create_project_title_header" />
+
+	    <TextView
+	        android:id="@+id/create_project_name_tv"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_title_tv"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:textSize="20sp"
+	        android:gravity="center"
+	        android:text="@string/create_project_name_header" />
+	
+	    <EditText
+	        android:id="@+id/create_project_name_et"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_name_tv"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:inputType="text" >
+	
+	    </EditText>
+	    
+	    <Spinner
+	        android:id="@+id/create_project_categories_sp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_name_et"
+	        android:layout_centerHorizontal="true"
+	         />
+	    
+	    <TextView
+	        android:id="@+id/create_project_description_tv"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_categories_sp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:textSize="20sp"
+	        android:gravity="center"
+	        android:text="@string/create_project_description_header" />
+	
+	    <EditText
+	        android:id="@+id/create_project_description_et"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/create_project_description_tv"
+	        android:layout_centerHorizontal="true"
+	        android:minLines="2"
+	        android:ems="13"
+	        android:inputType="textMultiLine" >
+	
+	    </EditText>
+	    
+	    <TextView
+	        android:id="@+id/create_project_amount_tv"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_description_et"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:textSize="20sp"
+	        android:gravity="center"
+	        android:text="@string/create_project_amount_header" />
+	
+	    <EditText
+	        android:id="@+id/create_project_amount_et"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_amount_tv"
+	      	android:layout_centerHorizontal="true"
+	        android:layout_gravity="center"
+	        android:inputType="number" />
+
+	    <TextView
+	        android:id="@+id/create_project_date_start_tv"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_amount_et"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:textSize="20sp"
+	        android:gravity="center"
+	        android:text="@string/create_project_date_start_header" />
+	
+	    <EditText
+	        android:id="@+id/create_project_date_start_et"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_date_start_tv"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp" 
+	        android:hint="@string/create_project_datetime_hint"
+	       	android:inputType="text" />
+	    
+	    <TextView
+	        android:id="@+id/create_project_date_end_tv"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_date_start_et"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:textSize="20sp"
+	        android:gravity="center"
+	        android:text="@string/create_project_date_end_header" />
+	
+	    <EditText
+	        android:id="@+id/create_project_date_end_et"
+	        android:layout_width="200dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_date_end_tv"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="10dp"
+	        android:hint="@string/create_project_datetime_hint"
+	        android:inputType="text" />
+	
+	    <Button
+	        android:id="@+id/create_project_b"
+	        android:layout_width="120dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/create_project_date_end_et"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/create_project_b" />
+    
+    </RelativeLayout>
+
+</ScrollView>
+

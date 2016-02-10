@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">SPS</string>
+        
+    <string name="title_activity_home">Accueil</string>
+    <string name="title_activity_login">Connexion</string>
+    <string name="title_activity_register">S\'inscrire</string>
+    <string name="title_activity_edit_profil">Modifier son profil</string>
+    <string name="title_activity_categories">Catégories</string>
+    <string name="title_activity_project_detail">Détails du projet</string>    
+    
+    <string name="tab_title_home">Accueil</string>
+    <string name="tab_title_categories">Catégories</string>
+    <string name="tab_title_new_project">Nouveau Projet</string>
+    
+    <string name="menu_about">A propos</string>
+    <string name="menu_login">Connexion</string>
+    <string name="menu_register">S\'inscrire</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_profil">Mon profil</string>
+    <string name="menu_logout">Se déconnecter</string>
+    
+    <string name="button_ok">OK</string>
+    <string name="button_quit">Quitter</string>
+    <string name="button_cancel">Annuler</string>
+    
+    <string name="alert_oops">Oups !</string>
+    <string name="alert_no_connection">Il semblerait que votre smartphone n\'est pas connecté à Internet. 
+        		Cette application ne peut pas fonctionner sans connexion réseau.
+        		Cliquez sur OK pour réessayer dans 10 sec, ou quitter l\'application pour le moment.</string>
+    <string name="alert_login_error">Une erreur s\'est produite, veuillez vérifier vos identifiants et réessayer.</string>
+    <string name="alert_error">Erreur !</string>
+    <string name="alert_null_contribution">Votre contribution ne peut pas être nulle.</string>
+    <string name="alert_thanks">Merci !</string>
+    <string name="alert_contribution_ok">Votre conribution a été traité.</string>
+    <string name="alert_warning">Attention !</string>
+    <string name="alert_leaving_application">Vous allez quitter l\'application.</string>
+        						
+    <string name="home_header">Actuellement sur\nSup Project Starter</string>
+    <string name="home_header_oneline">Actuellement sur Sup Project Starter</string>
+    <string name="home_header_no_projects">Il n\'y a pas de projets actuellement.</string>
+    
+    <string name="detail_creator_title">Créateur : </string>
+    <string name="detail_sdate_title">Créé le : </string>
+    <string name="detail_edate_title">Se termine le : </string>
+    <string name="detail_success">Ce projet est un succès.</string>
+    
+    <string name="contribute_hint">xxxx €</string>
+    <string name="contribute_button">Contribuer</string>
+    
+    <string name="login_email_header">Adresse email</string>
+    <string name="login_password_header">Mot de passe</string>
+    <string name="login_button">Connexion</string>
+    <string name="login_register">Nouveau sur SPS ?\nEnregistrez-vous ici</string>
+    <string name="login_register_oneline">Nouveau sur SPS ? Enregistrez-vous ici</string>
+    
+    <string name="register_title_header">S\'inscrire sur SPS</string>
+    <string name="register_button">S\'inscrire</string>
+    
+    <string name="user_email_header">Email</string>
+    <string name="user_name_header">Nom</string>
+    <string name="user_firstname_header">Prénom</string>
+    <string name="user_password_header">Mot de passe</string>
+    <string name="user_confirmation_header">Confirmation</string>
+    
+    <string name="edit_profil_title_header">Modifier votre profil</string>
+    <string name="edit_profil_button">Modifier</string>
+    
+    <string name="categories_spinner_header">- Catégories -</string>
+    
+    <string name="create_project_title_header">Créer un projet</string>
+    <string name="create_project_name_header">Nom</string>
+    <string name="create_project_description_header">Description</string>
+    <string name="create_project_amount_header">Montant à atteindre</string>
+    <string name="create_project_date_start_header">Date et heure de début</string>
+    <string name="create_project_date_end_header">Date et heure de fin</string>
+    <string name="create_project_b">Créer</string>
+    <string name="create_project_datetime_hint">dd/MM/aaaa HH:mm</string>
+    
+    <!-- CONFIRMATION MESSSAGES -->
+    
+    <string name="ER_200">Vous êtes connecté.</string>
+    <string name="ER_201">Succès de l\'inscription, bienvenue.</string>
+    <string name="ER_202">Profil modifié.</string>
+    <string name="ER_203">Projet ajouté.</string>
+    
+    <!-- ERRORS MESSAGES : LOGIN -->
+    
+    <string name="ER_500">Echec de la connection.</string>
+    <string name="ER_501">Echec de la connection : une erreur imprévue est survenue, merci de réessayer dans quelques instants.</string>
+    <string name="ER_502">Mot de passe incorrect.</string>
+    <string name="ER_503">Merci de saisir une adresse mail valide.</string>
+    <string name="ER_504">Aucun compte n\'existe avec cette adresse email.</string>
+    <string name="ER_505">Merci de saisir une adresse mail.</string>
+    <string name="ER_506">Le mot de passe doit contenir au moins 3 caractères.</string>
+    <string name="ER_507">Merci de saisir votre mot de passe.</string>
+    
+    <!-- ERRORS MESSAGES : REGISTER -->
+    
+    <string name="ER_508">Echec de \'inscription.</string>
+    <string name="ER_509">Echec de l\'inscription : une erreur imprévue est survenue, merci de réessayer dans quelques instants.</string>
+    <string name="ER_510">Adresse déjà utilisée, merci d\'en choisir une autre.</string>
+    <string name="ER_511">Les mots de passe ne doivent pas être différents.</string>
+    <string name="ER_512">Merci de saisir et confirmer votre mot de passe.</string>
+    <string name="ER_513">Le nom d\'utilisateur doit contenir au moins 3 caractères.</string>
+    <string name="ER_514">Le prénom doit contenir au moins 3 caractères.</string>
+    
+    <!-- ERRORS MESSAGES : EDIT PROFIL -->
+    
+    <string name="ER_515">Echec de la modification de votre profil.</string>
+    <string name="ER_516">Echec de la modification : une erreur imprévue est survenue, merci de réessayer dans quelques instants.</string>
+    
+    <!-- ERRORS MESSAGES : ADD PROJECT -->
+    
+    <string name="ER_517">Echec, projet non ajouté.</string>
+    <string name="ER_518">Echec de l\'ajout : une erreur imprévue est survenue, merci de réessayer dans quelques instants.</string>
+    <string name="ER_519">Vous n\'avez pas sélectionner de catégorie.</string>
+    <string name="ER_522">Le nom du projet doit faire plus de 3 caractères.</string>
+    <string name="ER_523">Ce projet existe déjà, nommez le différemment .</string>
+    <string name="ER_524">Veuillez saisir un montant à atteindre pour ce projet.</string>
+    <string name="ER_525">Le montant à atteindre n\'est pas correct.</string>
+    <string name="ER_526">La description doit faire plus de 10 caractères.</string>
+    <string name="ER_527">Merci de saisir une date de début.</string>
+    <string name="ER_528">Merci de saisir une date de fin.</string>
+    <string name="ER_529">La date de fin ne peut pas être inférieure à la date de début.</string>
+    <string name="ER_530">La date de début n\'est pas correcte.</string>
+    <string name="ER_531">La date de fin n\'est pas correcte.</string>
+    <string name="ER_532">Un admin ne peut ajouter de projet ici, utilisez le site.</string>
+    
+
+</resources>
